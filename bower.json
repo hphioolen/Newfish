@@ -21,12 +21,4 @@
   "dependencies": {
     "fancybox": "~2.1.5"
   }
-   "overrides": {
-	    "fancybox": {
-		  "main": [
-		    "./source/fancybox.css",
-		    "./source/jquery.fancybox.js"       	           
-		    ]
-		}
-	}
 }
