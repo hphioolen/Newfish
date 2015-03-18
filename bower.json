@@ -1,0 +1,21 @@
+{
+  "name": "Newfish",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hphioolen/Newfish",
+  "authors": [
+    "hphioolen"
+  ],
+  "description": "Start pakket voor het installeren van Newfish standaard onderdelen voor een de website",
+  "main": "./css/*, ./js/*",
+  "keywords": [
+    "Sage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
