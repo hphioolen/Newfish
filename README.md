@@ -27,6 +27,23 @@ In elk geval (alleen snippets):
 
 Lees ook de README.md van Sage.
 
-## Overige pakketten
+## Overige pakketten, Dependancies
+Toegevoegd: de dependancy van dit pakket op 
+fancybox
+fontawesome
+
+| pakket   | Overrides | 
+|----------|-----------|-------------|
+| fancybox | Yes       | kopieer alle image files uit de fancy box naar de asset folder
+
+"fancybox": {
+      "main": [
+        "./source/jquery.fancybox.js*",
+        "./source/jquery.fancybox.css"     
+      ]
+    },
+
+
+
 
 

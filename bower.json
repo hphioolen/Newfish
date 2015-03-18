@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "fancybox": "~2.1.5"
+    "fancybox": "~2.1.5",
+    "fontawesome": "~4.3.0"
   }
 }
