@@ -1,6 +1,6 @@
 {
   "name": "Newfish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/hphioolen/Newfish",
   "authors": [
     "hphioolen"
@@ -17,5 +17,16 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "fancybox": "~2.1.5"
+  }
+   "overrides": {
+	    "fancybox": {
+		  "main": [
+		    "./source/fancybox.css",
+		    "./source/jquery.fancybox.js"       	           
+		    ]
+		}
+	}
 }

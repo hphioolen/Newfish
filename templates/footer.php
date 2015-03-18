@@ -11,7 +11,7 @@
 <footer class="footer-bottom">
 	<div class="container">	
 		<div class="row">
-			<div class="col-xs-6 left">&copy;<?= date("Y"); ?> <?= get_bloginfo('name'); ?></div>
+			<div class="col-xs-6 left">&copy; <?= date("Y"); ?> <?= get_bloginfo('name'); ?></div>
 			<div class="col-xs-6 text-right">Powered by Newfish</div>
 		</div>
 	</div>		
