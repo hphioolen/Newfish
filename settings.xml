@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+    </settings>
+    <groups>
+        <group>
+            <ID>7</ID>
+            <post_content>Vul hier de speciale velden in</post_content>
+            <post_title>Speciale velden</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,url,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,partner,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </_wpcf_conditional_display>
+            </meta>
+            <hash>5fabcc8edb395c11e3f18fcb9181f7fa</hash>
+            <checksum>5fabcc8edb395c11e3f18fcb9181f7fa</checksum>
+            <__types_id>speciale-velden</__types_id>
+            <__types_title>Speciale velden</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>url</id>
+            <slug>url</slug>
+            <type>url</type>
+            <name>url</name>
+            <description>Vul de Url van de pagina in</description>
+            <data>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>url</__types_id>
+            <__types_title>url</__types_title>
+            <hash>20694f84233dbdf3434de07c2834a7af</hash>
+            <checksum>20694f84233dbdf3434de07c2834a7af</checksum>
+        </field>
+        <field>
+            <description>Vul hier kort overzicht in (5 regels)</description>
+            <data>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>cv-kort</id>
+            <name>CV Kort</name>
+            <type>wysiwyg</type>
+            <slug>cv-kort</slug>
+            <meta_key>wpcf-cv-kort</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>cv-kort</__types_id>
+            <__types_title>CV Kort</__types_title>
+            <hash>575507e6741b2b6eae76adcf7826c842</hash>
+            <checksum>575507e6741b2b6eae76adcf7826c842</checksum>
+        </field>
+        <field>
+            <description>Big registratie nummer</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>big-registratie</id>
+            <name>Big Registratie</name>
+            <type>textfield</type>
+            <slug>big-registratie</slug>
+            <meta_key>wpcf-big-registratie</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>big-registratie</__types_id>
+            <__types_title>Big Registratie</__types_title>
+            <hash>9a20beee7689074d448cc98b1c263aed</hash>
+            <checksum>9a20beee7689074d448cc98b1c263aed</checksum>
+        </field>
+        <field>
+            <description>Vul de URL naar het medisch specialisten register in.</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <url>
+                        <active>1</active>
+                        <message>Gelieve een geldig URL-adres in te vullen</message>
+                    </url>
+                </validate>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>medisch-specialisten-register</id>
+            <name>Medisch specialisten register</name>
+            <type>url</type>
+            <slug>medisch-specialisten-register</slug>
+            <meta_key>wpcf-medisch-specialisten-register</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>medisch-specialisten-register</__types_id>
+            <__types_title>Medisch specialisten register</__types_title>
+            <hash>65ea868b6de5117726a4489d61dd1430</hash>
+            <checksum>65ea868b6de5117726a4489d61dd1430</checksum>
+        </field>
+        <field>
+            <description>Commissie URL</description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>commissie</id>
+            <name>Commissie</name>
+            <type>url</type>
+            <slug>commissie</slug>
+            <meta_key>wpcf-commissie</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>commissie</__types_id>
+            <__types_title>Commissie</__types_title>
+            <hash>a4a0893d4678d0fedd532ac925c909cb</hash>
+            <checksum>a4a0893d4678d0fedd532ac925c909cb</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <custom_use>0</custom_use>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>functie</id>
+            <name>Functie:</name>
+            <type>textfield</type>
+            <slug>functie</slug>
+            <meta_key>wpcf-functie</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>functie</__types_id>
+            <__types_title>Functie:</__types_title>
+            <hash>f4115eb4005c2691bc8db011d759a3e2</hash>
+            <checksum>f4115eb4005c2691bc8db011d759a3e2</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <labels>
+                <name>Sliders</name>
+                <singular_name>Slide</singular_name>
+                <add_new>Nieuw(e) Toevoegen</add_new>
+                <add_new_item>Nieuw(e) %s Toevoegen</add_new_item>
+                <edit_item>%s Bewerken</edit_item>
+                <new_item>Nieuw(e) %s</new_item>
+                <view_item>Bekijk %s</view_item>
+                <search_items>%s Zoeken</search_items>
+                <not_found>Geen %s gevonden</not_found>
+                <not_found_in_trash>Geen %s gevonden in Prullenbak</not_found_in_trash>
+                <parent_item_colon>Oudertekst</parent_item_colon>
+                <all_items>Alle items</all_items>
+            </labels>
+            <slug>slide</slug>
+            <description></description>
+            <icon>images-alt2</icon>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <wpcf-post-type></wpcf-post-type>
+            <id>slide</id>
+            <__types_id>slide</__types_id>
+            <__types_title>Sliders</__types_title>
+            <hash>12d257fc9ca8d0ec0e8af117a8d5fb19</hash>
+            <checksum>12d257fc9ca8d0ec0e8af117a8d5fb19</checksum>
+        </type>
+        <type>
+            <wpcf-post-type>arrangement</wpcf-post-type>
+            <labels>
+                <name>Arrangementen</name>
+                <singular_name>Arrangement</singular_name>
+                <add_new>Nieuw(e) Toevoegen</add_new>
+                <add_new_item>Nieuw(e) %s Toevoegen</add_new_item>
+                <edit_item>%s Bewerken</edit_item>
+                <new_item>Nieuw(e) %s</new_item>
+                <view_item>Bekijk %s</view_item>
+                <search_items>%s Zoeken</search_items>
+                <not_found>Geen %s gevonden</not_found>
+                <not_found_in_trash>Geen %s gevonden in Prullenbak</not_found_in_trash>
+                <parent_item_colon>Oudertekst</parent_item_colon>
+                <all_items>Alle items</all_items>
+            </labels>
+            <slug>arrangement</slug>
+            <description></description>
+            <icon>admin-site</icon>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>arrangement</id>
+            <__types_id>arrangement</__types_id>
+            <__types_title>Arrangementen</__types_title>
+            <hash>712df9659d1cd546479f04b9233c4945</hash>
+            <checksum>712df9659d1cd546479f04b9233c4945</checksum>
+        </type>
+        <type>
+            <__types_id>partner</__types_id>
+            <__types_title>Partners</__types_title>
+            <wpcf-post-type>partner</wpcf-post-type>
+            <labels>
+                <name>Partners</name>
+                <singular_name>Partner</singular_name>
+                <add_new>Nieuw(e) Toevoegen</add_new>
+                <add_new_item>Nieuw(e) %s Toevoegen</add_new_item>
+                <edit_item>%s Bewerken</edit_item>
+                <new_item>Nieuw(e) %s</new_item>
+                <view_item>Bekijk %s</view_item>
+                <search_items>%s Zoeken</search_items>
+                <not_found>Geen %s gevonden</not_found>
+                <not_found_in_trash>Geen %s gevonden in Prullenbak</not_found_in_trash>
+                <parent_item_colon>Oudertekst</parent_item_colon>
+                <all_items>Alle items</all_items>
+            </labels>
+            <slug>partner</slug>
+            <description></description>
+            <icon>groups</icon>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>partner</id>
+            <hash>aaad2bf3e82b5f9b653e3338cc2da685</hash>
+            <checksum>aaad2bf3e82b5f9b653e3338cc2da685</checksum>
+        </type>
+    </types>
+</types>

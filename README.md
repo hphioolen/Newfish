@@ -32,18 +32,31 @@ Toegevoegd: de dependancy van dit pakket op
 fancybox
 fontawesome
 
+
 | pakket   | Overrides | 
 |----------|-----------|-------------|
 | fancybox | Yes       | kopieer alle image files uit de fancy box naar de asset folder
 
-"fancybox": {
-      "main": [
-        "./source/jquery.fancybox.js*",
-        "./source/jquery.fancybox.css"     
-      ]
-    },
+Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoegd:
+{
+	"name": "fancybox",
+	"version": "2.1.5",
+	"main": [
+		"source/jquery.fancybox.js",
+		"source/jquery.fancybox.css"
+	],
+	"ignore": [
+    	"**/.*",
+    	"fancybox.jquery.json",
+    	"demo"
+	],
+	"dependencies": {
+		"jquery": ">=1.10"
+	}
+}
 
 
-
+# types 
+settings.xml toegevoegd, nog niet definitief. De export is met waarschuwing zodat je de benodigde onderdelen kunt toevoegen, na aanvinken. 
 
 

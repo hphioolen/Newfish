@@ -6,7 +6,10 @@
     "hphioolen"
   ],
   "description": "Start pakket voor het installeren van Newfish standaard onderdelen voor een de website",
-  "main": "./css/*, ./js/*",
+  "main": [
+    "./css/*",
+    "./js/*"
+  ],
   "keywords": [
     "Sage"
   ],
