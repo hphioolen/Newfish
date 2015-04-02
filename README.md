@@ -57,6 +57,7 @@ Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoe
 
 
 # types 
+
 settings.xml toegevoegd, nog niet definitief. De export is met waarschuwing zodat je de benodigde onderdelen kunt toevoegen, na aanvinken. 
 
 
