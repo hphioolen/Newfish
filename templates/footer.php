@@ -8,7 +8,7 @@
 	</div>  
 </footer>
 
-<footer class="footer-bottom">
+<footer class="site-info">
 	<div class="container">	
 		<div class="row">
 			<div class="col-xs-6 left">&copy; <?= date("Y"); ?> <?= get_bloginfo('name'); ?></div>

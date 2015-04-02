@@ -60,3 +60,12 @@ Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoe
 settings.xml toegevoegd, nog niet definitief. De export is met waarschuwing zodat je de benodigde onderdelen kunt toevoegen, na aanvinken. 
 
 
+# less
+In de Less folder allerlei css opgenomen om veelgebruikte aanpassingen gelijk door te voeren na installatie van het pakket.
+Om de less uit te schakelen: comment out (of verwijder) de @imports in het newfish.less document.
+Zoveel mogelijk zijn alle kleuren uit de variables overgenomen en worden dus direct ingevoerd bij activeren. 
+
+## gravity forms
+Gekopieerd van:
+
+

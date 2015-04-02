@@ -7,7 +7,7 @@
   ],
   "description": "Start pakket voor het installeren van Newfish standaard onderdelen voor een de website",
   "main": [
-    "./css/*",
+    "./less/newfish.less",
     "./js/*"
   ],
   "keywords": [
