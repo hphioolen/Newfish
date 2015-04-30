@@ -14,6 +14,10 @@
 	$show_title	                 = false;
 	$show_description            = false;
 
+//mobile detect
+include_once 'Mobile_Detect.php';
+$detect = new Mobile_Detect;
+
 ?>
 
 
@@ -42,7 +46,19 @@
 	    	    		<?php 
 							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 															
-									the_post_thumbnail();
+									
+									if ( $detect->isMobile() ) {
+ 
+										the_post_thumbnail('mobile-width');
+										
+									}else{
+										if ($full_width):
+											the_post_thumbnail('full-width-slider');
+										else:
+											the_post_thumbnail('site-width');
+										endif;
+									
+									}
 								}
 						?>
 						<?php if ($show_title): ?>
