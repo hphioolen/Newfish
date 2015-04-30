@@ -8,11 +8,13 @@
 	</div>  
 </footer>
 
+<?php $logo = get_template_directory_uri() . '/dist/images/newfish_logo.png';	?>		
+	    
 <footer class="site-info">
 	<div class="container">	
 		<div class="row">
 			<div class="col-xs-6 left">&copy; <?= date("Y"); ?> <?= get_bloginfo('name'); ?></div>
-			<div class="col-xs-6 text-right">Powered by Newfish</div>
+			<div class="col-xs-6 text-right">Realisatie: <a href='newfish.nl' title="newfish webdevelopment" target="_blank"><img src="<?= $logo; ?>" alt="newfish" /> Newfish.nl</div>
 		</div>
 	</div>		
 </footer>
