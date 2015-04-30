@@ -23,6 +23,7 @@
   ],
   "dependencies": {
     "fancybox": "~2.1.5",
-    "fontawesome": "~4.3.0"
+    "fontawesome": "~4.3.0",
+     "owl.carousel": "smashingboxes/OwlCarousel2"
   }
 }

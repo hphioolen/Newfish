@@ -36,6 +36,7 @@ fontawesome
 | pakket   | Overrides | 
 |----------|-----------|-------------|
 | fancybox | Yes       | kopieer alle image files uit de fancy box naar de asset folder
+| owlcarousel | Yes       | Main override in project aanpassen:
 
 Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoegd:
 {
@@ -55,11 +56,22 @@ Fancy box mist wel eens de bower.json, die moet dan met de hand worden toegeveoe
 	}
 }
 
+OWL
+ "overrides": {
+     "owl.carousel": {
+      "main": [
+        "./dist/owl.carousel.js",
+        "./dist/assets/owl.carousel.css",
+        "./dist/assets/owl.theme.default.css"
+      ]
+    },
+    
+
 
 # types 
 
 settings.xml toegevoegd, nog niet definitief. De export is met waarschuwing zodat je de benodigde onderdelen kunt toevoegen, na aanvinken. 
-
+TODO: toevoegen van de portfolio uit helene de bruin.
 
 # less
 In de Less folder allerlei css opgenomen om veelgebruikte aanpassingen gelijk door te voeren na installatie van het pakket.
@@ -68,5 +80,27 @@ Zoveel mogelijk zijn alle kleuren uit de variables overgenomen en worden dus dir
 
 ## gravity forms
 Gekopieerd van:
+
+
+#Login Customization
+
+Less toegevoegd aan assets (styles/login.less);
+Manifest aangepast zodat er een login.css wordt toegevoegd aan de /dist/styles/
+Image en logo toegevoegd aan images folder
+
+manifest aanpassingen:
+"login.css": {
+      "files": [
+        "styles/login.less"
+      ]
+    },
+    
+  
+
+#Featured owl
+
+Standaard, is er een slider beschikbaar (met types), die responsive werkt met owl. 
+Hierin is de mogelijkheid opgenomen om met Mobile detection  
+
 
 
